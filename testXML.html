@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+	<meta name="author" content="Jakub Szaraj">
+	<title>testXML</title>
+</head>
+<body>
+	<nav>
+	<a id="odnosnik"id="menu" href="menu.html">Powrót do Menu</a>
+	 </nav>
+	 
+	 	<header> 
+         <h2>Test twojej wiedzy o XML</h2>
+        </header>
+        <form id="quizForm">
+        <main>	
+        
+    <div>
+	 	<label> Pytanie nr 1 XML jakiego języka jest rozszerzeniem ?</label>
+	 	<br>
+	 	<input type="radio" name="question1" value="a"> HTML <br>
+	 	<input type="radio" name="question1" value="b"> css <br>
+	 	<input type="radio" name="question1" value="c"> C++ <br>
+	 	 <span id="roz1"> </span>
+	 	 </div>
+	 	 <div> 
+	 	<label>Pytanie nr 2: W czym umieszcza się atrybuty ?</label>
+	 	<br>
+	 	<input type="radio" name="question2" value="a"> Nawiasach <br>
+	 	<input type="radio" name="question2" value="b"> Klamrach <br>
+	 	<input type="radio" name="question2" value="c"> Średnikach <br>
+	 	 <span id="roz2"></span> 
+	 	</div>
+	 	<div>
+	 	<label>Jakiego rozszeżenia są pliki XML ? ?</label>
+	 	 <br>
+	 	<input type="text" id="question3">
+         <br><span id="roz3"></span> 
+         </div>
+	<button type="button" onclick="checkAnswers6()">Sprawdź</button>  <button type="button" onclick="clearForm()">Wyczyść  </button>
+      <p id="result"></p>
+    </form>
+
+    <script type="text/javascript" src="skrypt.js"></script>
+</main>
+<footer> <p><h4> &copy; 2023 | Jakub Szaraj</h4></p></footer>
+  </body>
+</html>

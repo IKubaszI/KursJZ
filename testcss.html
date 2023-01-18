@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+	<meta name="author" content="Jakub Szaraj">
+	<title>testcss</title>
+</head>
+<body>
+	<nav>
+	<a id="odnosnik"id="menu" href="menu.html">Powrót do Menu</a>
+	 </nav>
+	 
+	 	<header> 
+         <h2>Test twojej wiedzy o css</h2>
+        </header>
+        <form id="quizForm">
+        <main>	
+        
+    <div>
+	 	<label> Pytanie nr 1 Jakiego rozszeżenia są pliki css ?</label>
+	 	<br>
+	 	<input type="radio" name="question1" value="a"> .csw <br>
+	 	<input type="radio" name="question1" value="b"> #css <br>
+	 	<input type="radio" name="question1" value="c"> .css <br>
+	 	 <span id="roz1"> </span>
+	 	 </div>
+	 	 <div> 
+	 	<label>Pytanie nr 2: W jaki sposob zmienic kolor tekstu na różowy w obiekcie o id "hover"</label>
+	 	<br>
+	 	<input type="radio" name="question2" value="a"> hover{ color pink} <br>
+	 	<input type="radio" name="question2" value="b"> hover{ background-color: pink; } <br>
+	 	<input type="radio" name="question2" value="c"> ok google zmien kolor na niesbieski w hover <br>
+	 	 <span id="roz2"></span> 
+	 	</div>
+	 	<div>
+	 	<label>Pytanie nr 3: jak odnieść się do tekstu zapisanego w div id=naglowek ?</label>
+	 	 <br>
+	 	<input type="text" id="question3">
+         <br><span id="roz3"></span> 
+         </div>
+	<button type="button" onclick="checkAnswers3()">Sprawdź</button>  <button type="button" onclick="clearForm()">Wyczyść  </button>
+      <p id="result"></p>
+    </form>
+
+    <script type="text/javascript" src="skrypt.js"></script>
+</main>
+<footer> <p><h4> &copy; 2023 | Jakub Szaraj</h4></p></footer>
+  </body>
+</html>

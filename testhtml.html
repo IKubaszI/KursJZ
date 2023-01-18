@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <meta name="author" content="Jakub Szaraj">
+    <title>Testhtml</title>
+</head>
+<body>
+    <nav>
+    <a id="odnosnik"id="menu" href="menu.html">Powrót do Menu</a>
+     </nav>
+     <header> 
+         <h2>Test twojej wiedzy o HTML</h2>
+        </header>
+     <main>
+    <form id="quizForm">
+      <div>
+        <label>Pytanie 1: Jakiego rozszeżenia są pliki HTML ?</label>
+        <br>
+        <input type="radio" name="question1" value="a"> .html <br>
+        <input type="radio" name="question1" value="b"> .js <br>
+        <input type="radio" name="question1" value="c"> .tw <br>
+         <span id="roz1"></span>
+
+      </div>
+      <div>
+        <label>Pytanie 2: W jakim miejscu umieścić kodowanie polskich znaków ?</label>
+        <br>
+        <input type="radio" name="question2" value="a"> main <br>
+        <input type="radio" name="question2" value="b"> head <br>
+        <input type="radio" name="question2" value="c"> body <br>
+         <span id="roz2"></span>
+      </div>
+      <div>
+        <label>Pytanie 3: Jakie kodowanie należy umieścić aby używać polskich znaków ?</label>	
+        <br>
+        <input type="text" id="question3"> <br>
+        <span id="roz3"></span>
+      </div>
+         <button type="button" onclick="checkAnswers()">Sprawdź</button> <button type="button" onclick="clearForm()">Wyczyść  </button>
+      <p id="result"></p>
+
+</form>    
+<script type="text/javascript" src="skrypt.js"></script>
+</main>
+<footer> <p><h4> &copy; 2023 | Jakub Szaraj</h4></p></footer>
+</body>
+</html>
