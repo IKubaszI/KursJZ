@@ -1,0 +1,104 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+ background-image: url("https://img.freepik.com/premium-zdjecie/czarny-prostokat-kwadrat-tlo-kafelkowe_117856-749.jpg");
+ background-color: #cccccc;
+}
+header
+{
+    background-color: rgba(255, 28, 151, 0.8);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 1px;
+    color: pink ;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+main
+{
+    width: 800px;
+    height: auto;
+    background-image: rgba(#0000ff);
+ background-color: #cccccc;
+    background-size: cover;
+    margin: 40px auto 0;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+    font-size: 25px;
+}
+#menus
+{
+    width: 800px;
+    height: 450px;
+    background-image: rgba(#0000ff);
+ background-color: #cccccc;
+    background-size: cover;
+    margin: 40px auto 0;
+    border-radius: 30px 30px 0 0;
+    padding: 20px;
+    font-size: 25px;
+}
+nav{
+
+     background-color: rgba(30, 122, 134, 0.5);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+     border-width: 1px;
+     color: whitesmoke;
+    border-radius: 10px 10px 0px 0px;    
+      display: flex;
+    justify-content: space-between;
+}
+#odnosnik{
+     color: black;
+   padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: sandybrown;
+   
+}
+#cien{
+    font-family: roma ;
+    text-shadow: 12px 12px blur-radius black;
+}
+#wybierz{
+    
+    text-align: center  ;
+    
+}
+#kurs{
+  color: black;
+   padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+footer
+{
+    background-color: rgba(30, 122, 134, 1);
+    width: 800px;
+    padding: 20px;
+    margin: 0px auto 0;
+    border-radius: 3px solid black;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+
+
+}
+button{
+    background-color: rgba(30, 122, 134, 1);
+   
+     border-width: 5px;
+     color: whitesmoke;
+    border-radius: 20px;  
+    width: 100px; 
+   
+}
