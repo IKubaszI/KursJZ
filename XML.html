@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <meta name="author" content="Jakub Szaraj">
+    <title>Kurs XML</title>
+</head>
+<body>
+    <nav>
+        <a id="odnosnik" href="css.html">Poprzedni Kurs</a>
+        <a id="odnosnik" href="menu.html">Menu</a>
+        <a id="odnosnik" href="JS.html">Nastepny Kurs</a>
+    </nav>
+    <header> 
+        <h2> <p class="cien">Kurs XML</p></h2>
+    </header>
+    <main>
+        <section>
+            <h2>Podstawy</h2>
+            <p>XML (ang. Extensible Markup Language) to język znaczników służący do tworzenia i przesyłania danych. Jest on rozszerzeniem języka HTML i pozwala na tworzenie własnych znaczników.</p>
+        </section>
+        <section>
+            <h2>Tworzenie dokumentu</h2>
+            <p>Aby utworzyć dokument XML, należy użyć nagłówka <!DOCTYPE> oraz znacznika <xml>. Poniżej znajduje się przykład prostego dokumentu XML:</p>
+            <code>
+                &lt;?xml version="1.0"?&gt;<br>
+                &lt;note&gt;<br>
+                &nbsp;&nbsp;&lt;to&gt;Tove&lt;/to&gt;<br>
+                &nbsp;&nbsp;&lt;from&gt;Jani&lt;/from&gt;<br>
+                &nbsp;&nbsp;&lt;heading&gt;Reminder&lt;/heading&gt;<br>
+                &nbsp;&nbsp;&lt;body&gt;Don't forget me this weekend!&lt;/body&gt;<br>
+                &lt;/note&gt;
+            </code>
+        </section>
+        <section>
+            <h2>Znaczniki</h2>
+            <p>Znaczniki XML składają się z nazwy znacznika oraz jego zawartości. Nazwa znacznika jest unikalna dla danego dokumentu. Poniżej znajduje się przykład znacznika:</p>
+            <code><tagname>content</tagname></code>
+</section>
+<section>
+<h2>Atrybuty</h2>
+<p>Atrybuty to dodatkowe informacje przypisane do znaczników. Są one umieszczane w nawiasach po nazwie znacznika. Poniżej znajduje się przykład znacznika z atrybutem:</p>
+<code><tagname attribute="value">content</tagname></code>
+</section>
+<section>
+<h2>Dokumenty z wyłącznie elementami</h2>
+<p>XML pozwala na tworzenie dokumentów złożonych tylko z elementów. W tym przypadku nie ma potrzeby używania atrybutów, ponieważ informacje są przekazywane przez elementy.</p>
+</section>
+<section>
+<h2>Narzędzia</h2>
+<p>Aby korzystać z języka XML potrzebujemy narzędzi do jego edycji, np. Notatnika++, Sublime Text. Do tworzenia i walidacji dokumentów XML możemy użyć narzędzia jak np. XML Copy Editor, jEdit, XML Notepad.</p>
+</section>
+<a href="testXML.html">rozpocznij test</a>
+</main>
+<footer> <p><h4> © 2023 | Jakub Szaraj</footer>
+
+</body>
+</html>
